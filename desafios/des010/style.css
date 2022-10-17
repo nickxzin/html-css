@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: droid;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: auto;
+}
+
+body{
+    background-color: rgba(143, 214, 143, 0.479);
+}
+
+header{
+    background-image: linear-gradient(180deg, #b9eeb9, #158615);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.527);
+}
+
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 815px;
+    padding: 12px;
+}
+
+div#video{
+    background-color: #172e17;
+    text-align: center;
+}
+
+iframe#tela{
+    background-color: #172e17;
+
+}
+
+div{
+    background-color: white;
+    margin: auto;
+}
+
+footer{
+    background-color: rgb(196, 238, 196);
+    margin: 20px;
+    border-radius: 7px;
+}
+
+footer > p{
+    text-align: justify;
+    padding: 8px;
+    text-indent: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+
+ul > li{
+    padding: 5px;
+}
+
+footer > h1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #64b364;
+    color: white;
+    border-radius: 7px 7px 0px 0px;
+    font-size: 23px;
+    padding: 8px;
+}
+
+h1{
+    font-family: droid;
+    padding: 5px;
+    text-align: justify;
+    color: rgb(0, 97, 0);
+    font-size: 28px;
+}
+
+h1#titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding: 24px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    font-size: 36px;
+}
+
+h2{
+    font-family: droid;
+    color: rgb(0, 117, 0);
+    padding: 5px;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #62c96c8a, #ffffff);
+}
+
+p#subtitulo{
+    text-align: center;
+    color: #ffffffa6;
+    line-height: 26px;
+}
+
+article > p{
+    text-align: justify;
+    padding: 5px;
+    text-indent: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+
+div > p{
+    line-height: 30px;
+    text-align: justify;
+    padding: 5px;
+    text-indent: 30px;
+}
+
+a.links{
+    color: #063D1E;
+    font-weight: bolder;
+    background-color: #83E1AD;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+b{
+    color: rgb(0, 117, 0);
+    font-weight: bolder;
+}
+
+.menus{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menus:hover{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+
+div#imagemparameio{
+    text-align: center;
+}
+
