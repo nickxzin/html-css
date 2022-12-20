@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        @keyframes slidein{
+            from{
+                width: 200px;
+            }
+            
+            to{
+                width: 50px;
+            }
+        }
+
+        @keyframes animacao{
+            from{
+                width: 50px;
+            }
+
+            to{
+                width: 200px;
+            }
+        }
+
+
+        *{
+            width: 500px;
+            height: 500px;
+            box-sizing: border-box;
+            margin: 50px;
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            animation-name: animacao, slidein;
+            animation-duration: 6s;
+        }
+
+    </style>
+</head>
+<body>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Mozilla_Firefox_2004_Logo.png" alt="">
+</body>
+</html>
