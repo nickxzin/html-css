@@ -4,100 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <style>
-        @keyframes bounce{
-            0% {
-                background-color: orange;
-                color: #000;
-                margin-top: 0;
-            }
-            
-            100% {
-                background-color: orange;
-                color: #000;
-                margin-top: 20%;
-            }
-        }
-
-        body{
-            width: 50%;
-        }
-
-        *{
-            box-sizing: border-box;
-        }
-
-        div{
-            animation-name: bounce;
-            animation-direction: alternate;
-            animation-duration: 1s;
-            animation-iteration-count: infinite;
-            animation-timing-function: ease-in;
-            background-color: #1766aa;
-            border-radius: 50%;
-            border: 5px solid #333;
-            color: #fff;
-            height: 150px;
-            margin: auto;
-            margin-left: 0;
-            width: 150px;
-            display: block;
-        }
-
-        .animacao-gp {
-            animation-duration: 3s;
-            animation-name: texto;
-        }
-
-        .animacao-aparecer{
-            animation: opacity 3s;
-        }
-
-            @keyframes texto {
-            from {
-                margin-left: 10%;
-                width: 300%;
-            }
-
-            75% {
-                font-size: 300%;
-                margin-left: 25%;
-                width: 150%;
-            }
-
-            to {
-                margin-left: 0%;
-                width: 100%;
-            }
-        }
-
-        @keyframes opacity{
-            from{
-                opacity: 10%;
-                translate: 100px;
-            }
-
-            20%{
-                opacity: 30%;
-            }
-
-            50%{
-                opacity: 60%;
-                translate: 40px;
-            }
-
-            to{
-                opacity: 100%;
-                translate: 0px;
-            }
-        }
-
-    </style>
 </head>
 <body>
+    <div class="bar-progression">
+
+    </div>
     <!--<div></div>-->
-    <!--<p class="animacao-gp"></p>-->
-    <p class="animacao-aparecer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae possimus deserunt repellat enim, provident dolor dolorum eos doloribus. Totam sint quo ab sit quibusdam! Pariatur totam vero nulla accusantium harum.</p>
+    <!--<p class="animacao gp"></p>-->
+    <p class="animacao aparecer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae possimus deserunt repellat enim, provident dolor dolorum eos doloribus. Totam sint quo ab sit quibusdam! Pariatur totam vero nulla accusantium harum.</p>
+    <div class="animacao quadrado">
+        
+    </div>
+    <!--<div id="container">
+        <div id="square"></div>
+    </div>-->
+
 </body>
 </html>
