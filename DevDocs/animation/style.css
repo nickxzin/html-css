@@ -16,7 +16,6 @@
 
 body{
     width: 100%;
-    height: 2000px;
     overflow-x: hidden; /*Retira a barra horizontal*/
 }
 
@@ -65,13 +64,17 @@ body{
     width: 200px;
 }
 
+.animacao.quadrado{
+    filter: drop-shadow(30px 10px 4px #d732ec);
+}
+
 .animacao.quadrado:hover{
     /*     name duration timing-function delay iteration-count direction fill-mode*/
     animation: rotacionar 3s ease-in-out 0s infinite alternate forwards;
 }
 
 .animacao{
-    margin: 10px;
+    margin: 20px;
 }
 
 .animacao.gp {
@@ -83,6 +86,112 @@ body{
     translate: 100px;
     animation: opacity 3s ease-in-out 0s 1 normal forwards;
     animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+.box {
+    background-color: rgb(224, 206, 247);
+    border: 5px solid rebeccapurple;
+    display: flow-root;
+}
+
+.float {
+    float: left;
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    border:1px solid black;
+    padding: 10px;
+}
+
+.firefox{
+    margin: 40px;
+}
+
+.firefox.blur{
+    filter: blur(7px);
+}
+
+.firefox.brightness{
+    filter: brightness(50%);
+}
+
+.firefox.contrart{
+    filter: contrast(200%);
+}
+
+.firefox.dropshadow{
+                    /*right  bottom   quantidade  cor*/
+    filter: drop-shadow(0px 0px 10px crimson);
+}
+
+.firefox.grayscale{
+    filter: grayscale(0.1);
+}
+
+.firefox.hue-rotate{
+    /*Usa-se deg*/
+    filter: hue-rotate(180deg);
+}
+
+.firefox.invert{
+    filter: invert(1);
+}
+
+.firefox.opacity{
+    filter: opacity(0.5);
+}
+
+.firefox.saturate{
+    filter: saturate(4);
+}
+
+.firefox.sepia{
+    filter: sepia(50%);
+}
+
+.boxx {
+    width: 500px;
+    display: flex;
+  }
+
+.boxx > * {
+    flex: 1 1 auto;
+    background-color: lightblue;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: row;
+}
+
+.caixa :nth-child(1) { order: 2; }
+.caixa :nth-child(2) { order: 3; }
+.caixa :nth-child(3) { order: 1; }
+.caixa :nth-child(4) { order: 3; }
+.caixa :nth-child(5) { order: 1; }
+
+
+.wrapper{
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    width: 200px;
+}
+
+.date {
+    order: -1;
+    text-align: right;
+    background-color: lightblue;
+}
+
+
+input{
+    display: block;
 }
 
 
