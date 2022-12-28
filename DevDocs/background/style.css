@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+    gap: 20px;
+}
+
+.backgroud.linear-gradient{
+    height: 200px;
+    border-radius: 8px;
+    background: linear-gradient(200deg, rgba(255,0,0,.8), rgba(255, 251, 0, 0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+.backgroud.linear-gradient1{
+    height: 200px;
+    border-radius: 8px;
+    background: linear-gradient(0deg,red 0%, orange 10% 30%, yellow 50% 70%, green 90% 100%);
+}
+
+.backgroud.linear-gradient2{
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    background: linear-gradient(45deg, red, blue);
+}
+
+.backgroud.radial-gradient{
+    height: 200px;
+    border-radius: 8px;
+    background: radial-gradient(ellipse at top, #e66465, transparent),
+                radial-gradient(ellipse at bottom, #79ff0a, transparent);
+}
+
+.backgroud.conic-gradient{
+    height: 200px;
+    border-radius: 8px;
+    background: repeating-conic-gradient(
+        red 0%,
+        yellow 15%,
+        red 33%
+    );
+}
